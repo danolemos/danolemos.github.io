@@ -17,7 +17,8 @@ li {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', fantasy;
+    text-align: center;
 }
 
 .container {
