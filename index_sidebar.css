@@ -53,12 +53,11 @@ body {
     width: max-content;
 }
 
-#sidebar input[type="checkbox"]:checked~.sidebar-nav {
-    width: 260px;
-    min-width: 260px;
-}
-
-
-#sidebar input[type="checkbox"]:not(:checked)~* .sidebar-link span {
-    display: none;
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff2c2c;
+    width: 80px; /* largura inicial */
+    min-width: 80px;
+    transition: all 0.3s ease;
 }
