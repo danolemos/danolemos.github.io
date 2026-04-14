@@ -38,10 +38,6 @@ body {
     transition: all 0.35s ease-in-out;
 }
 
-#toggler {
-    display: none;
-}
-
 .toggle-btn {
     font-size: 1.5rem;
     cursor: pointer;
