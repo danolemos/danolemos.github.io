@@ -18,6 +18,9 @@ li {
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: url('orquestra_fundo.jpg');
+    overflow: hidden;
+    background-size: cover;
 }
 
 .container {
