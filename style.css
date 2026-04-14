@@ -4,8 +4,8 @@
 ::after,
 ::before {
     box-sizing: border-box;
-    padding: 1000;
-    margin: 1000;
+    padding: 100;
+    margin: 100;
 }
 
 a {
@@ -35,7 +35,7 @@ body {
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
-    background-color: blue;
+    background-color: white;
 }
 
 #toggler {
