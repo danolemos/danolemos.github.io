@@ -50,12 +50,27 @@ body {
     width: max-content;
 }
 
-#sidebar input[type="checkbox"]:checked~.sidebar-nav {
-    width: 260px;
-    min-width: 260px;
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff2c2c;
+    width: 80px;
+    min-width: 80px;
+    height: 100vh;
+    transition: width 0.3s ease;
+    overflow: hidden;
 }
 
+#sidebar:hover {
+    width: 260px;
+}
 
-#sidebar input[type="checkbox"]:not(:checked)~* .sidebar-link span {
-    display: none;
+.sidebar-link span {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+}
+
+#sidebar:hover .sidebar-link span {
+    opacity: 1;
 }
