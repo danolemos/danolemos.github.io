@@ -4,8 +4,8 @@
 ::after,
 ::before {
     box-sizing: border-box;
-    padding: 100;
-    margin: 100;
+    padding: 1000;
+    margin: 1000;
 }
 
 a {
@@ -27,7 +27,7 @@ body {
 #sidebar {
     display: flex;
     flex-direction: column;
-    background-color: #ff0000;
+    background-color: red;
 }
 
 .main {
@@ -35,7 +35,7 @@ body {
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
-    background-color: #ff0000;
+    background-color: blue;
 }
 
 #toggler {
