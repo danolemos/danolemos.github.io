@@ -27,7 +27,7 @@ body {
 #sidebar {
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: #ff2c2c;
 }
 
 .main {
