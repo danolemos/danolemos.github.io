@@ -40,6 +40,23 @@ body {
     background-color: #ff2c2c;
 }
 
+.hero {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  background: rgba(0, 0, 0, 0.6); /* só aqui */
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.titulo h1 {
+  color: white;
+}
+
 .main {
     min-height: 100vh;
     width: 100%;
