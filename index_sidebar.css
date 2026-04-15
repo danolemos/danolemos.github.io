@@ -25,6 +25,14 @@ body {
     display: flex;
 }
 
+.caixa {
+  display: flex;
+  background: white;
+  padding: 15px;
+  gap: 15px; /* espaço entre imagem e texto */
+  align-items: center; /* alinha verticalmente */
+}
+
 #sidebar {
     display: flex;
     flex-direction: column;
