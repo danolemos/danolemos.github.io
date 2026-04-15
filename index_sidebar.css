@@ -126,8 +126,9 @@ body {
 }
 
 .caixa .photo_container {
-  display: flex;
-  flex: 1;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
 }
 
 .caixa .photo_container > * {
