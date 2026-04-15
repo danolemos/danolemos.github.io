@@ -40,21 +40,29 @@ body {
     background-color: #ff2c2c;
 }
 
-.hero {
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.titulo {
-  background: rgba(0, 0, 0, 0.6); /* só aqui */
-  padding: 20px 30px;
-  border-radius: 10px;
-}
-
-.titulo h1 {
-  color: white;
+@media (max-width: 600px) { /* responsividade no celular */
+	.hero {
+	  position: relative;
+	  height: 250px;
+	  display: flex;
+	  align-items: flex-start;
+	  justify-content: center;
+	}
+	
+	.titulo {
+	  position: absolute;
+	  top: 20px;
+	  left: 50%;
+	  transform: translateX(-50%); /* centraliza */
+	  background: rgba(0, 0, 0, 0.6); /* só aqui */
+	  padding: 15px 20px;
+	  border-radius: 10px;
+	}
+	
+	.titulo h1 {
+	  font-size: clamp(1.5rem, 5vw, 3rem);
+	  color: white;
+	}
 }
 
 .main {
