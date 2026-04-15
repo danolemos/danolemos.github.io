@@ -110,6 +110,14 @@ body {
     padding: 20px 10px;
 }
 
+#photo_container {
+  display: flex;
+}
+
+#photo_container > div {
+  flex: 1;
+}
+
 .background {
     position: fixed;
     width: 100%;
