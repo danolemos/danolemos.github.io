@@ -59,7 +59,8 @@ body {
 }
 
 #sidebar:hover {
-    width: 260px;
+    width: 300px;
+    background-color: #ffffff; /* ⚪ open sidebar */
 }
 
 <!-- Estado fechado (padrão) -->
@@ -88,6 +89,25 @@ body {
 
 #sidebar:hover .sidebar-link span {
     opacity: 1;
+}
+
+.sidebar-logo {
+    width: 120px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease
+}
+
+#sidebar:hover .sidebar-logo {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.sidebar-header { /* centralizing and spacing/padding the logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
 }
 
 .background {
