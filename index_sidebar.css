@@ -31,7 +31,7 @@ body {
   padding: 15px;
   gap: 15px; /* espaço entre imagem e texto */
   align-items: center; /* alinha verticalmente */
-  margin-left: 40px; /* rente à barra lateral */
+; /* rente à barra lateral */
 }
 
 #sidebar {
