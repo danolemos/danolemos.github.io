@@ -31,7 +31,7 @@ body {
   padding: 15px;
   gap: 15px; /* espaço entre imagem e texto */
   align-items: center; /* alinha verticalmente */
-  margin-left: 220px; /* 200 + 20 */
+  margin-left: 40px; /* rente à barra lateral */
 }
 
 #sidebar {
@@ -42,6 +42,7 @@ body {
 
 @media (max-width: 600px) { /* responsividade no celular */
 	.hero {
+	  background: url("imagem.jpg") center/cover no-repeat;
 	  position: relative;
 	  height: 250px;
 	  display: flex;
