@@ -47,7 +47,13 @@ body {
     width: max-content;
 }
 
+#conteudo {
+  flex: 1;
+  padding: 20px;
+}
+
 #sidebar {
+    position: fixed;
     display: flex;
     flex-direction: column;
     background-color: #ff2c2c;
