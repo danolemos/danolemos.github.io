@@ -94,7 +94,7 @@ body {
 
 #sidebar:hover {
     width: 300px;
-    background-color: #ffffff; /* ⚪ open sidebar */
+    background-color: green; /* ⚪ open sidebar */
 }
 
 /* Estado fechado (padrão) */
