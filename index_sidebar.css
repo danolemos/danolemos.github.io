@@ -99,7 +99,7 @@ body {
 }
 
 #sidebar:hover {
-    width: 300px;
+    width: 300px !important;
     background-color: #ffffff; /* ⚪ open sidebar */
 }
 
