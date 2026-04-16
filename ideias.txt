@@ -1,0 +1,9 @@
+1) Botão de ingressos para os próximos concertos, com dados sobre o público.
+--> Data
+--> Hora
+--> Local
+
+2) Integração do site com o Youtube, de modo a divulgar os vídeos das apresentações
+
+3) Responsividade do site, para que ele funcione também no celular
+
