@@ -28,10 +28,10 @@ body {
 .caixa {
   display: flex;
   background: white;
-  padding: auto;
+  padding: 50px;
   gap: 15px; /* espaço entre imagem e texto */
   align-items: center; /* alinha verticalmente */
-  margin-left: 100px; /* rente à barra lateral */
+  margin-left: 500px; /* rente à barra lateral */
 }
 
 .hero {
