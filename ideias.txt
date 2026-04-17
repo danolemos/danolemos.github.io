@@ -7,3 +7,5 @@
 
 3) Responsividade do site, para que ele funcione também no celular
 
+4) Listagem de imagens numa mesma pasta, sem que seja necessário adicioná-las uma a uma.
+
