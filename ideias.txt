@@ -10,3 +10,5 @@
 4) Listagem de imagens numa mesma pasta, sem que seja necessário adicioná-las uma a uma.
 
 5) Fazer os membros e ex-membros da orquestra assinarem um termo de permissão de uso de imagem.
+
+6) Usar InfinityFree como servidor.
