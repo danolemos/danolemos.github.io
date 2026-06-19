@@ -35,19 +35,6 @@ body {
   margin-left: 500px; /* rente à barra lateral */
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.galeria img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
 .hero {
 	  background: url("imagem.jpg") /* center/cover no-repeat */;
 	  position: relative;
