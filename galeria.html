@@ -11,20 +11,30 @@
     <div class="galeria">
       <div class="caixa">
         <h1>Concerto 1</h1>
-          <div class="background">
-        	    <img src="" class="active">
-        	    <img src="">
-        	    <img src="">
-        	</div>
+        	    <div class="carrossel">
+                <?php
+                  $arquivos = glob("imagens/*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+                  
+                  foreach ($arquivos as $arquivo) {
+                      echo "<img src='$arquivo'>";
+                  }
+                ?>
+              </div>
         <img src="imagem_teste.jpeg" alt="Imagem 1">
       </div>
       
       <div class="caixa">
         <h1>Concerto 2</h1>
           <div class="background">
-        	    <img src="" class="active">
-        	    <img src="">
-        	    <img src="">
+        	    <div class="carrossel">
+                <?php
+                  $arquivos = glob("imagens/*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+                  
+                  foreach ($arquivos as $arquivo) {
+                      echo "<img src='$arquivo'>";
+                  }
+                ?>
+              </div>
         	</div>
         <img src="imagem_teste.jpeg" alt="Imagem 2">
       </div>
@@ -32,11 +42,15 @@
       <div class="caixa">
         <h1>Concerto 3</h1>
           <!-- Carousel of images as background -->
-        	<div class="background">
-        	    <img src="" class="active">
-        	    <img src="">
-        	    <img src="">
-        	</div>
+        	    <div class="carrossel">
+                <?php
+                  $arquivos = glob("imagens/*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+                  
+                  foreach ($arquivos as $arquivo) {
+                      echo "<img src='$arquivo'>";
+                  }
+                ?>
+              </div>
         <img src="imagem_teste.jpeg" alt="Imagem 3">
       </div>
     </div>
