@@ -81,7 +81,7 @@ body {
 	color: black;
 }
 
-.upper-bar {
+#upper-bar {
 	position: sticky;
 	top: 0;
 	z-index: 1000;
