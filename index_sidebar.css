@@ -26,14 +26,18 @@ body {
     display: flex;
 }
 
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
 .botao {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 .caixa {
