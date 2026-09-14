@@ -29,14 +29,6 @@ body {
 .botoes {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    min-height: 100vh;
-}
-
-.botoes {
-    display: flex;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -48,7 +40,7 @@ body {
 
 .botao:hover {
 	background-color: green;
-	transform: scale(1.5);
+	transform: scale(2);
 }
 
 .hero {
