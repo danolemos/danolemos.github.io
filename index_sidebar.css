@@ -46,6 +46,11 @@ body {
     border-radius: 8px;
 }
 
+.botao:hover {
+	background-color: green;
+	transform: scale(1.5);
+}
+
 .hero {
 	  background: url("imagem.jpg") /* center/cover no-repeat */;
 	  position: relative;
