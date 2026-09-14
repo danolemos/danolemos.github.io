@@ -81,6 +81,20 @@ body {
 	color: black;
 }
 
+.upper-bar {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+
+	padding: 0 40px;
+    background-color: #ff2c2c;
+	
+	display: flex;
+    width: 70px;
+    min-width: 70px;
+    height: 100vh;
+}
+
 #sidebar {
     position: fixed;
     display: flex;
