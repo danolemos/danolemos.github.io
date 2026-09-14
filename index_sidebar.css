@@ -34,19 +34,16 @@ body {
     min-height: 100vh;
 }
 
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .botao {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-}
-
-.caixa {
-  display: flex;
-  background: white;
-  padding: 50px;
-  gap: 15px; /* espaço entre imagem e texto */
-  align-items: center; /* alinha verticalmente */
-  margin-left: 500px; /* rente à barra lateral */
 }
 
 .hero {
