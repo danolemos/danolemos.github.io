@@ -57,22 +57,31 @@ body {
 }
 
 .hero {
-	  background: url("imagem.jpg") /* center/cover no-repeat */;
-	  position: relative;
-	  height: 250px;
-	  display: flex;
-	  align-items: flex-start;
-	  justify-content: center;
+    background: url("imagem.jpg") center/cover no-repeat;
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
-	
+
 .titulo {
-	  position: absolute;
-	  top: 20px;
-	  left: 50%;
-	  transform: translateX(-50%); /* centraliza */
-	  background: rgba(0, 0, 0, 0.6); /* só aqui */
-	  padding: 15px 20px;
-	  border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: calc(100% - 40px);
+    max-width: 1000px;
+
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    border-radius: 10px;
+
+    color: white;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 	
 .titulo h1 {
