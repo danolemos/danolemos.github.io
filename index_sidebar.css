@@ -34,6 +34,12 @@ body {
     min-height: calc(100vh - 2cm);
 }
 
+@media (max-width: 768px) {
+    .botoes {
+        flex-direction: column;
+    }
+}
+
 .botao {
     padding: 10px 20px;
     border: none;
