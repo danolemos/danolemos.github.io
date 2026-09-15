@@ -50,13 +50,6 @@ body {
 	transform: scale(1.3);
 }
 
-
-.botao .diamond {background-color: #7ddde8;}
-.botao .bronze {background-color: #6e4d25;}
-.botao .silver {background-color: #c0c0c0;}
-.botao .gold {background-color: #d4af37;}
-
-
 .hero {
 	  background: url("imagem.jpg") /* center/cover no-repeat */;
 	  position: relative;
@@ -107,7 +100,7 @@ body {
 	position: sticky;
 	top: 0;
 	left: 0;
-    background-color: red;
+    background-color: #ff2c2c;
     width: 100vw;
     height: 2cm;
 }
