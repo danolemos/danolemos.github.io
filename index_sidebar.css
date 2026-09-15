@@ -37,6 +37,8 @@ body {
 @media (max-width: 768px) {
     .botoes {
         flex-direction: column;
+        padding-top: 50px;
+        justify-content: flex-start;
     }
 }
 
