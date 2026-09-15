@@ -40,6 +40,10 @@ body {
         padding-top: 50px;
         justify-content: flex-start;
     }
+
+	#sidebar {
+		width: 70px;
+	}
 }
 
 .botao {
