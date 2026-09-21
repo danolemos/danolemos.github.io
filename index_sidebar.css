@@ -52,11 +52,21 @@ body {
 	}
 }
 
+.image {
+	text-align: center;
+	width: 200px;
+	height: auto;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	display: block;
+}
+
 .botao {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-
 	width: 180px;
     height: 400px;
     cursor: pointer;
