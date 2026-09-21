@@ -46,6 +46,10 @@ body {
 	#sidebar {
 		width: 40px;
 	}
+
+	.image {
+		padding_left: 60px;
+	}
 }
 
 .botao {
