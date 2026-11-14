@@ -79,23 +79,23 @@ body {
 }
 
 .moderato {
-    background-image: url("imagens_associacao/moderato icone.jpg");
+    background-image: url("./imagens_associacao/moderato%20icone.jpg");
 }
 
 .allegro {
-    background-image: url("imagens_associacao/allegro icone.jpg");
+    background-image: url("./imagens_associacao/allegro%20icone.jpg");
 }
 
 .vivace {
-    background-image: url("imagens_associacao/vivace icone.jpg");
+    background-image: url("./imagens_associacao/vivace%20icone.jpg");
 }
 
 .presto {
-    background-image: url("imagens_associacao/presto icone.jpg");
+    background-image: url("./imagens_associacao/presto%20icone.jpg");
 }
 
 .cadenza {
-    background-image: url("imagens_associacao/cadenza icone.jpg");
+    background-image: url("./imagens_associacao/cadenza%20icone.jpg");
 }
 
 .botao:hover {
