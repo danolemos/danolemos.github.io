@@ -88,11 +88,15 @@
 	<!-- NOTÍCIAS -->
 	
 	<div class="caixa" style="background-color: white; padding-left: 100px; margin-top: 300px">
-		<div class="background_noticias">
-		    <img src="orquestra_fundo.jpg" class="active">
-		    <img src="orquestra2.jpg">
-		    <img src="orquestra3.jpg">
+		<div class="carousel">
+		    <button class="prev" onclick="mudarImagem(-1)">❮</button>
+		
+		    <img id="imagemCarrossel" src="./requiem_mozart/img1.jpg" alt="Imagem">
+		
+		    <button class="next" onclick="mudarImagem(1)">❯</button>
 		</div>
+		
+		<div id="indicadores"></div>
 	</div>
 		
 	</div>
