@@ -64,13 +64,38 @@ body {
 }
 
 .botao {
-    padding: 10px 20px;
+    width: 200px;
+    height: 120px;
     border: none;
-    border-radius: 8px;
-	width: 180px;
-    height: 400px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     cursor: pointer;
-    transition: all 0.3s ease;
+
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+.moderato {
+    background-image: url("imagens_associacao/moderato icone.jpg");
+}
+
+.allegro {
+    background-image: url("imagens_associacao/allegro icone.jpg");
+}
+
+.vivace {
+    background-image: url("imagens_associacao/vivace icone.jpg");
+}
+
+.presto {
+    background-image: url("imagens_associacao/presto icone.jpg");
+}
+
+.cadenza {
+    background-image: url("imagens_associacao/cadenza icone.jpg");
 }
 
 .botao:hover {
