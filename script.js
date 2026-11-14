@@ -1,5 +1,14 @@
 const imagens = [
     "requiem_mozart/img1.jpg",
+    "requiem_mozart/img2.jpg",
+    "requiem_mozart/img3.jpg",
+    "requiem_mozart/img4.jpg",
+    "requiem_mozart/img5.jpg",
+    "requiem_mozart/img6.jpg",
+    "requiem_mozart/img7.jpg",
+    "requiem_mozart/img8.jpg",
+    "requiem_mozart/img9.jpg",
+    "requiem_mozart/img10.jpg",
 ];
 
 let atual = 0;
