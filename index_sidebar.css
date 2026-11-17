@@ -43,16 +43,6 @@ body {
         justify-content: flex-start;
     }
 
-#sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: white;
-    z-index: 1000;
-}
-
 	.image {
 		padding_left: 80px;
 	}
@@ -145,17 +135,9 @@ body {
 	color: black;
 }
 
-#upper-bar {
-	position: sticky;
-	top: 0;
-	left: 0;
-    background-color: #ff2c2c;
-    width: 100vw;
-    height: 2cm;
-}
+#selection-bar {
 
-#sidebar {
-    position: fixed;
+	position: fixed;
 	z-index: 1000;
     display: flex;
 	flex-direction: column;
@@ -164,15 +146,24 @@ body {
     min-width: 70px;
     height: 100vh;
     transition: width 0.3s ease;
+
+	@media (max-width: 768px){
+	position: sticky;
+	top: 0;
+	left: 0;
+    background-color: #ff2c2c;
+    width: 100vw;
+    height: 2cm;
+	}
 }
 
-#sidebar:hover {
+#selection-bar:hover {
     width: 300px;
     background-color: #ffffff; /* ⚪ open sidebar */
 }
 
 /* Estado fechado (padrão) */
-.sidebar-link {
+.selection-bar-link {
     display: flex;
     align-items: center;
     justify-content: center; /* 👈 centraliza ícone */
@@ -180,44 +171,44 @@ body {
     gap: 10px; /* 👈 ESSENCIAL */
 }
 
-.sidebar-link:hover {
+.selection-bar-link:hover {
     background-color: rgba(255,255,255,0.2);
     border-radius: 8px;
 }
 
-#sidebar:hover .sidebar-link {
+#selection-bar:hover .selection-bar-link {
     justify-content: flex-start; /* 👈 joga pra esquerda */
     padding-left: 16px;
 }
 
-.sidebar-link span {
+.selection-bar-link span {
     opacity: 0;
     white-space: nowrap;
     transition: opacity 0.2s ease;
 }
 
-.sidebar-link i {
+.selection-bar-link i {
     min-width: 24px;
     text-align: center;
 }
 
-#sidebar:hover .sidebar-link span {
+#selection-bar:hover .selection-bar-link span {
     opacity: 1;
 }
 
-.sidebar-logo {
+.selection-bar-logo {
     width: 120px;
     opacity: 0;
     transform: scale(0.8);
     transition: all 0.3s ease
 }
 
-#sidebar:hover .sidebar-logo {
+#selection-bar:hover .selection-bar-logo {
     opacity: 1;
     transform: scale(1);
 }
 
-.sidebar-header { /* centralizing and spacing/padding the logo */
+.selection-bar-header { /* centralizing and spacing/padding the logo */
     display: flex;
     justify-content: center;
     align-items: center;
