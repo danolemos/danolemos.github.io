@@ -31,7 +31,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-height: calc(100vh - 2cm);
 }
 
 @media (max-width: 768px) {
