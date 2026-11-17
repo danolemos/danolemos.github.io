@@ -235,6 +235,7 @@ body {
 }
 
 .menu-icon {
+	position: absolute;
     font-size: 25px;
     color: white;
     cursor: pointer;
@@ -243,7 +244,6 @@ body {
     transition: opacity 0.2s ease;
 
 	@media (max-width: 768px) {
-		position: absolute;
         left: 20px;
         top: 50%;
         transform: translateY(-50%);
@@ -251,7 +251,7 @@ body {
 }
 
 #selection-bar:hover .menu-icon {
-	opacity: 100%;
+	opacity: 0;
 }
 
 .caixa .photo_container {
