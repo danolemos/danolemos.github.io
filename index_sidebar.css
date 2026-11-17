@@ -227,6 +227,11 @@ body {
     gap: 15px;
     padding: 20px 10px;
     min-height: 60px;
+
+	@media (max-width: 768px) {
+		justify-content: flex-start;
+	    padding: 15px 20px;
+	}
 }
 
 .menu-icon {
@@ -236,11 +241,21 @@ body {
     flex-shrink: 0;
 	opacity: 1;
     transition: opacity 0.2s ease;
+
+	@media (max-width: 768px) {
+		position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+	}
 }
 
 #selection-bar:hover .menu-icon {
     color: black;
-	opacity: 0;
+
+	@media (max-width: 768px) {
+		opacity: 0;
+	}
 }
 
 .caixa .photo_container {
