@@ -446,7 +446,7 @@ body {
 }
 
 .faixa-preta {
-    width: auto;
+    width: 80px;
     margin-left: calc(50% - 50vw);
     background-color: black;
     color: white;
