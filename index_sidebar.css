@@ -399,12 +399,12 @@ main {
 }
 
 .footer {
-	flex-shrink: 0;
 	width: 100%;
     background-color: #202020;
     color: white;
     padding: 40px 30px 15px;
     position: relative;
+	margin-top: auto;
 }
 
 .footer-content {
