@@ -71,7 +71,7 @@ main {
 
 .botao {
     width: 200px;
-    height: 120px;
+    height: 150px;
     padding: 0;
     border: none;
     background: transparent;
@@ -418,9 +418,10 @@ main {
 }
 
 .footer-section {
-    display: flex;
+    display: block;
     flex-direction: column;
     gap: 10px;
+	margin: 0 auto;
 }
 
 .footer-section img {
