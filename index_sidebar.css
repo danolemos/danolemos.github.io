@@ -19,7 +19,18 @@ li {
 body {
     font-family: 'Poppins', fantasy;
     text-align: left;
-	
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1;
 }
 
 .container {
@@ -392,9 +403,7 @@ body {
     background-color: #202020;
     color: white;
     padding: 40px 30px 15px;
-    margin-top: 60px;
-	position: absolute;
-    bottom: 0;
+    margin-top: auto;
 }
 
 .footer-content {
